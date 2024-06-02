@@ -1,22 +1,4 @@
 
-Grounding DBT technique my therapist gave me, "54321"
-This helps me with anxiety and other times I'm overwhelmed.
-Using your senses helps ground you in reality, it also helps distract you from what you might be worried about, I know it's helped me alot. 
-
-Anxiety breathing techniques: 
-Breathe in,hold,breathe out:https://tenor.com/view/anxiety-panic-attack-gif-15269229
-Breathe in, image to focus on:https://tenor.com/view/anxiety-gif-25537730
-This is a breathing technique that is helpful for anxiety. Sometimes something as simple as focusing on breathing can help. I know it sounds silly at first, give it a try.
-
-Try journaling your thoughts to get them out of your head and onto paper (:
-
-
-Maslow’s hierarchy of needs shows us that in order to have good mental health, we need our basic needs at the bottom of the pyramid met first.
- (ex: getting safe housing improves mental health)
--See the section on housing & financial help for more resources 
-
- *I'm not a therapist, please see a medical professional
-
 Trans Academy Discord Server Guide:
 Checkout our “Resources” Channel in discord 
 

@@ -7,6 +7,7 @@
 - [ ] links to each section
 - [x] all google doc info is included
 - [ ] progress flag symbol and lgbt not trans.
+- [x] rename `server_guide` to `mental_health`.
 - [x] each section using my doc wording. 
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.

@@ -17,3 +17,5 @@
 - [ ] legible information include all the details to find the book in book stores
 - [ ] homelessness and financials are a independent page
 - [ ] move period section behind masc in index
+- [ ] mobile layout
+- [ ] android apk

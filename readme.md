@@ -11,10 +11,11 @@
 - [x] each section using my doc wording. 
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
-- [ ] Under each chapter 1-14 theres parts A,B,C etc and some have dots or "i" "ii" etc
 - [ ] match index to section titles
+- [x] Under each chapter 1-14 theres parts A,B,C etc and some have dots or "i" "ii" etc
+- [ ] Rename chapter hadings to fit the 1.A.I naming scheme
 - [ ] update amanzon links to "real links" instead of browser copy 
 - [ ] links with ACTUAL TEXT
 - [ ] legible information include all the details to find the book in book stores
-- [ ] homelessness and financials are a independent page
+- [x] homelessness and financials are a independent page
 - [ ] move period section behind masc in index

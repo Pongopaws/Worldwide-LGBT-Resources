@@ -18,4 +18,4 @@
 - [ ] links with ACTUAL TEXT
 - [ ] legible information include all the details to find the book in book stores
 - [x] homelessness and financials are a independent page
-- [ ] move period section behind masc in index
+- [x] move period section behind masc in index

@@ -4,6 +4,26 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg" href="./img/favicon.svg" />
         <title>Worldwide Trans Resources</title>
+<style>
+.flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+    width: 50%;
+}
+@media (max-aspect-ratio: 1/1) {
+    .flexbox {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2 {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+}
+</style>
     </head>
     <body>
 <h1> Mental Health </h1>
@@ -219,15 +239,30 @@
     <i>I'm not a therapist, please see a medical professional for proper care</i>
 </p>
 
-<img scr="./img/grounding-technique.png">
 
-<h4>Grounding DBT technique my therapist gave me, "54321"</h4> 
-
-<p>
-    This helps me with anxiety and other times I'm overwhelmed.<br>
-    Using your senses helps ground you in reality, it also helps distract you from what you might be worried about, <br>
-    I know it's helped me alot. 
-</p>
+<div class="flexbox">
+    <div class="box2">
+        <h4>Grounding DBT technique my therapist gave me, "54321"</h4> 
+        <p>
+            This helps me with anxiety and other times I'm overwhelmed.<br>
+            Using your senses helps ground you in reality, 
+            it also helps distract you from what you might be worried about, <br>
+            I know it's helped me alot. 
+        </p>
+    </div>
+    <div class="box2" style="text-align: center;">
+        <img 
+         src="./img/grounding-technique.png" 
+         alt="The 5-4-3-2-1 groudning technique: 
+               Acknowledge 5 things you can see around. 
+               Aknowledge 4 things that you can tough around you. 
+               Acknowledge 3 things you can hear around you. 
+               Acknowledge 2 things you can smell around you. 
+               Acknowledge 1 thing you can taste." 
+         height="350em"
+         />
+    </div>
+</div>
 
 <h4>Anxiety breathing techniques </h4>
 

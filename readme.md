@@ -21,3 +21,4 @@
 - [ ] legible information include all the details to find the book in book stores
 - [ ] mobile layout
 - [ ] android apk
+- [ ] Change Disclaimer to new text, no Trans academy.

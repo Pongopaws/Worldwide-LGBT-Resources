@@ -11,8 +11,8 @@
 - [x] move period section behind masc in index
 - [x] Change Disclaimer to new text, no Trans academy.
 - [x] what happend to the seperator on the period page?
+- [x] progress flag symbol and lgbt not trans.
 - [ ] links to each section
-- [ ] progress flag symbol and lgbt not trans.
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] match index to section titles

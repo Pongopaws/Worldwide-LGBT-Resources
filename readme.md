@@ -13,12 +13,12 @@
 - [x] what happend to the seperator on the period page?
 - [x] progress flag symbol and lgbt not trans.
 - [ ] links to each section
-- [ ] once website is done, make business cards
-- [ ] once website is completed reword things from Google doc into website.
 - [ ] match index to section titles
 - [ ] Rename chapter hadings to fit the 1.A.I naming scheme
 - [ ] update amanzon links to "real links" instead of browser copy 
 - [ ] links with ACTUAL TEXT
 - [ ] legible information include all the details to find the book in book stores
 - [ ] mobile layout
+- [ ] once website is done, make business cards
+- [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk

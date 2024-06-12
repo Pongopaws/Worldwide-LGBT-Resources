@@ -9,7 +9,8 @@
 - [x] Under each chapter 1-14 theres parts A,B,C etc and some have dots or "i" "ii" etc
 - [x] homelessness and financials are a independent page
 - [x] move period section behind masc in index
-- [ ] what happend to the seperator on the period page?
+- [x] Change Disclaimer to new text, no Trans academy.
+- [x] what happend to the seperator on the period page?
 - [ ] links to each section
 - [ ] progress flag symbol and lgbt not trans.
 - [ ] once website is done, make business cards
@@ -21,4 +22,3 @@
 - [ ] legible information include all the details to find the book in book stores
 - [ ] mobile layout
 - [ ] android apk
-- [ ] Change Disclaimer to new text, no Trans academy.

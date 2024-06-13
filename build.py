@@ -2,7 +2,7 @@ import os
 
 def replace_title(original_header: str, file_name: str) -> str:
     return original_header.replace(
-        "Wordwide Trans Resources", 
+        "Worldwide LGBT Resources", 
         " ".join(
             e.capitalize() for e in file_name[:-5].split("_")
         )

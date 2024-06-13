@@ -1,4 +1,6 @@
 import os 
+import sys 
+import time 
 
 def replace_title(original_header: str, file_name: str) -> str:
     return original_header.replace(
@@ -25,4 +27,13 @@ def main():
             f.write(new_header + content + footer)
 
 if __name__ == "__main__":
-    main()
+    if len(sys.argv) > 1:
+        arg = sys.argv[1]
+        if arg == "watch":
+            while True:
+                main()
+                time.sleep(1)
+        else:
+            print("unknonw arg: {arg}")
+    else:
+        main()

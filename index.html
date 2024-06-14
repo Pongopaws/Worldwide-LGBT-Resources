@@ -4,40 +4,40 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg" href="./img/favicon.svg" />
         <title>Worldwide LGBT Resources</title>
-<!--
-let s:rosewater = "#ffdbd2"
-let s:flamingo = "#ffc0c0"
-let s:pink = "#ffb8eb"
-let s:mauve = "#ca9eff"
-let s:red = "#f985a5"
-let s:maroon = "#f497a7"
-let s:peach = "#fcb385"
-let s:yellow = "#fde3ab"
-let s:green = "#93f88c"
-let s:teal = "#59f8db"
-let s:sky = "#84eafa"
-let s:sapphire = "#56c6fb"
-let s:blue = "#75aaff"
-let s:dark_blue = "#436597"
-let s:bright_blue = "#9ac9fa"
-let s:lavender = "#99a4ff"
+        <!--
+            let s:rosewater = "#ffdbd2"
+            let s:flamingo = "#ffc0c0"
+            let s:pink = "#ffb8eb"
+            let s:mauve = "#ca9eff"
+            let s:red = "#f985a5"
+            let s:maroon = "#f497a7"
+            let s:peach = "#fcb385"
+            let s:yellow = "#fde3ab"
+            let s:green = "#93f88c"
+            let s:teal = "#59f8db"
+            let s:sky = "#84eafa"
+            let s:sapphire = "#56c6fb"
+            let s:blue = "#75aaff"
+            let s:dark_blue = "#436597"
+            let s:bright_blue = "#9ac9fa"
+            let s:lavender = "#99a4ff"
 
-let s:text = "#f8f8f8"
-let s:subtext1 = "#bac2de"
-let s:subtext0 = "#a6adc8"
-let s:overlay2 = "#9697a5"
-let s:overlay1 = "#777a8b"
-let s:overlay0 = "#5f6270"
-let s:surface2 = "#585b70"
-let s:surface1 = "#45475a"
-let s:surface0 = "#313244"
-let s:underlay0 = "#2c2c30"
+            let s:text = "#f8f8f8"
+            let s:subtext1 = "#bac2de"
+            let s:subtext0 = "#a6adc8"
+            let s:overlay2 = "#9697a5"
+            let s:overlay1 = "#777a8b"
+            let s:overlay0 = "#5f6270"
+            let s:surface2 = "#585b70"
+            let s:surface1 = "#45475a"
+            let s:surface0 = "#313244"
+            let s:underlay0 = "#2c2c30"
 
-let s:base = "#161616"
-let s:mantle = "#181825"
-let s:crust = "#11111b"
--->
-<style>
+            let s:base = "#161616"
+            let s:mantle = "#181825"
+            let s:crust = "#11111b"
+        -->
+        <style>
 .readable-div {
     display: flex;
     flex-direction: column;
@@ -59,55 +59,66 @@ let s:crust = "#11111b"
 .put-left {
     padding-right: 50%;
 }
-@media (max-aspect-ratio: 1/1) {
-    .flexbox {
-        flex-direction: column;
-        align-items: center;
-    }
-    .box2 {
-        display: block;
-        width: 80%;
-        margin: auto;
-    }
-    .put-left {
-        padding-right: 0%;
-    }
+.separator {
+    width: 100%; 
+    height: 1px; 
+    background-color: #f8f8f8;
 }
-@media (prefers-color-scheme: dark) {
-    body {
-        background-color: #161616;
-        color: #f8f8f8;
-    }
-    a:link {
-        color: #75aaff;       
-        text-decoration: none;
-    }
-    a:visited {
-        color: #99a4ff;       
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-}
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #f8f8f8;
-        color: #11111b;
-    }
-    a:link {
-        color: #2660b4;       
-        text-decoration: none;
-    }
-    a:visited {
-        color: #593e9c;       
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-}
-</style>
+        @media (max-aspect-ratio: 1/1) {
+            .flexbox {
+                flex-direction: column;
+                align-items: center;
+            }
+            .box2 {
+                display: block;
+                width: 80%;
+                margin: auto;
+            }
+            .put-left {
+                padding-right: 0%;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #161616;
+                color: #f8f8f8;
+            }
+            a:link {
+                color: #75aaff;       
+                text-decoration: none;
+            }
+            a:visited {
+                color: #99a4ff;       
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .separator {
+                background-color: #f8f8f8;
+            }
+        }
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #f8f8f8;
+                color: #11111b;
+            }
+            a:link {
+                color: #2660b4;       
+                text-decoration: none;
+            }
+            a:visited {
+                color: #593e9c;       
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .separator {
+                background-color: #11111b;
+            }
+        }
+        </style>
     </head>
     <body>
 <div class="readable-div">
@@ -132,8 +143,73 @@ let s:crust = "#11111b"
                     <ol type="I"> 
                         <li>
                             <h5 style="margin: 0px;">
-                                <a href="./mental_health.html#basic_coping_skills">
-                                    Coping skills
+                                <a href="./mental_health.html#suicide_prevention_hotlines">
+                                    Suicide Prevention Hotlines
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#human_trafficing_hotlines">
+                                    Human Trafficking
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#sexual_violence_hotlines">
+                                    Sexual Violence
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#domestic_violence_hotlines">
+                                    Domestic Violence
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#runaway_hotlines">
+                                    Youth Runaway Crisis lines
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#trans_lifeline_hotlines">
+                                    Trans Lifeline’s Hotline
+                                </a>
+                            </h5>
+                        </li>
+                    </ol>
+                    <li>
+                        <h4 style="margin: 0px;">
+                            <a href="./mental_health.html#basic_coping_skills">
+                                Basic Coping Skills
+                            </a>
+                        </h4>
+                    </li>
+                    <ol>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#54321_grounding_technique">
+                                    The "54321" Grounding Technique
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#anxiety_breathing_techniques">
+                                    Anxiety breathing techniques
+                                </a>
+                            </h5>
+                        </li>
+                        <li>
+                            <h5 style="margin: 0px;">
+                                <a href="./mental_health.html#journaling">
+                                    Journaling
                                 </a>
                             </h5>
                         </li>
@@ -766,7 +842,7 @@ let s:crust = "#11111b"
 
 
 
-<div style="border-style: solid; boder-width: 1%"></div>
+<div class="separator" style="height: 0.3em"></div>
 
 <div class="readable-div">
     <p style="text-align: center;">

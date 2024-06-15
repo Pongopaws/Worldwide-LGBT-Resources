@@ -21,86 +21,152 @@
             let s:crust = "#11111b"
         -->
         <style>
-.readable-div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 90%;
-    margin: auto;
-}
-.readable-text {
-    max-width: 120ch;
-    margin: auto;
-}
-.flexbox {
-    display: flex;
-    justify-content: space-between;
-}
-.box2 {
-    width: 50%;
-}
-.put-left {
-    padding-right: 50%;
-}
-.separator {
-    width: 100%; 
-    height: 1px; 
-    background-color: #f8f8f8;
-}
-        @media (max-aspect-ratio: 1/1) {
-            .flexbox {
-                flex-direction: column;
-                align-items: center;
-            }
-            .box2 {
-                display: block;
-                width: 80%;
-                margin: auto;
-            }
-            .put-left {
-                padding-right: 0%;
-            }
+        .readable-div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+            margin-left: 25%; /* sidebar */
         }
-        @media (prefers-color-scheme: dark) {
-            body {
-                background-color: #161616;
-                color: #f8f8f8;
-            }
-            a:link {
-                color: #75aaff;       
-                text-decoration: none;
-            }
-            a:visited {
-                color: #99a4ff;       
-                text-decoration: none;
-            }
-            a:hover {
-                text-decoration: underline;
-            }
-            .separator {
-                background-color: #f8f8f8;
-            }
+        .readable-text {
+            max-width: 120ch;
+            margin: auto;
         }
-        @media (prefers-color-scheme: light) {
-            body {
-                background-color: #f8f8f8;
-                color: #11111b;
-            }
-            a:link {
-                color: #2660b4;       
-                text-decoration: none;
-            }
-            a:visited {
-                color: #593e9c;       
-                text-decoration: none;
-            }
-            a:hover {
-                text-decoration: underline;
-            }
-            .separator {
-                background-color: #11111b;
-            }
+        .flexbox {
+            display: flex;
+            justify-content: space-between;
         }
+        .box2 {
+            width: 50%;
+        }
+        .put-left {
+            padding-right: 50%;
+        }
+        .separator {
+            width: 100%; 
+            height: 1px; 
+            background-color: #f8f8f8;
+        }
+        .separator-foot {
+            width: 80%; /* sidebar */
+            margin-left: 20%; /* sidebar */
+            height: 0.3em; 
+            background-color: #f8f8f8;
+        }
+        .sidebar {
+            height: 100%;
+            width: 20%;
+            z-index: 1;
+            position: fixed;
+            top: 0;
+            left: 0;
+            border-right-style: solid;
+            border-width: 1px;
+            border-color: #161616;
+        }
+        .sidebar ul {
+            list-style: none; 
+            margin: 1em 0em; 
+            padding: 0px;
+        }
+        .sidebar li {
+            padding: 0.5em 2em;
+        }
+            @media (max-aspect-ratio: 1/1) {
+                .readable-div {
+                    margin-left: 5%;
+                }
+                .flexbox {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                .box2 {
+                    display: block;
+                    width: 80%;
+                    margin: auto;
+                }
+                .separator-foot {
+                    width: 100%;
+                    margin-left: 0%;
+                }
+                .put-left {
+                    padding-right: 0%;
+                }
+                .sidebar {
+                    display: none;
+                }
+            }
+            @media (prefers-color-scheme: dark) {
+                body {
+                    background-color: #161616;
+                    color: #f8f8f8;
+                }
+                a:link {
+                    color: #75aaff;       
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: #99a4ff;       
+                    text-decoration: none;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                .separator {
+                    background-color: #f8f8f8;
+                }
+                .separator-foot {
+                    background-color: #f8f8f8;
+                }
+                .sidebar {
+                    border-color: #f8f8f8;
+                }
+                .sidebar a {
+                    color: #f8f8f8;
+                }
+                .sidebar li:hover {
+                    text-decoration: underline;
+                    outline-style: solid;
+                    outline-width: 1px;
+                    outline-color: #f8f8f8;
+                }
+            }
+            @media (prefers-color-scheme: light) {
+                body {
+                    background-color: #f8f8f8;
+                    color: #11111b;
+                }
+                a:link {
+                    color: #2660b4;       
+                    text-decoration: none;
+                }
+                a:visited {
+                    color: #593e9c;       
+                    text-decoration: none;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+                .separator {
+                    background-color: #11111b;
+                }
+                .separator-foot {
+                    background-color: #11111b;
+                }
+                .sidebar {
+                    border-color: #161616;
+                }
+                .sidebar a {
+                    color: #11111b;
+                }
+                .sidebar li:hover {
+                    text-decoration: underline;
+                    outline-style: solid;
+                    outline-width: 1px;
+                    outline-color: #11111b;
+                }
+            }
         </style>
     </head>
     <body>

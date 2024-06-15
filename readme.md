@@ -10,7 +10,7 @@
 - [ ] legible information include all the details to find the book in book stores
 - [ ] Exporting to pdf
 - [ ] web with navigation
-  - [ ] no javascript sidebar only for wide displays
+  - [x] no javascript sidebar only for wide displays
   - [ ] java script folded for small displays
   - [ ] java script open for wide displays
 - [ ] mobile layout

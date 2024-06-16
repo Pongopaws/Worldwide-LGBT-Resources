@@ -33,3 +33,62 @@
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
+
+## Restucturing Homelessness
+
+### current
+
+- worldwide help for save housing
+  - moving to the us
+- US
+  - housing
+    - LGBT youth homelessness
+  - food
+    - us
+    - worldwide
+- wifi/internet
+- health insurance
+  - tips and tricks
+  - grants
+- jobs and skill building
+  - job boards
+    - worldwide
+    - us & canade
+  - know your rights
+    - how to ask for accomodations
+  - skill building
+  - resume help
+  - job interviews
+    - what to say
+    - what to wear
+    - tips
+  - college financial aid options (US)
+
+### proposed
+
+- asylum and refuge
+  - moving to the us
+- housing
+  - US
+    - LGBT youth homelessness
+- food
+  - us
+  - worldwide
+- wifi/internet
+- health insurance
+  - tips and tricks
+  - grants
+- jobs and skill building
+  - job boards
+    - worldwide
+    - us & canade
+  - know your rights
+    - how to ask for accomodations
+  - skill building
+  - resume help
+  - job interviews
+    - what to say
+    - what to wear
+    - tips
+  - college financial aid options (US)
+

@@ -18,7 +18,7 @@
             let s:underlay0 = "#2c2c30"
             let s:base = "#161616"
             let s:mantle = "#181825"
-            let s:crust = "#11111b"
+            let s:crust = "#161616"
         -->
         <style>
         .readable-div {
@@ -73,100 +73,112 @@
         .sidebar li {
             padding: 0.5em 2em;
         }
-            @media (max-aspect-ratio: 1/1) {
-                .readable-div {
-                    margin-left: 5%;
-                }
-                .flexbox {
-                    flex-direction: column;
-                    align-items: center;
-                }
-                .box2 {
-                    display: block;
-                    width: 80%;
-                    margin: auto;
-                }
-                .separator-foot {
-                    width: 100%;
-                    margin-left: 0%;
-                }
-                .put-left {
-                    padding-right: 0%;
-                }
-                .sidebar {
-                    display: none;
-                }
+        .highlighted {
+            background-color: #fde3ab;
+            color: #161616;
+        }
+        @media (max-aspect-ratio: 1/1) {
+            .readable-div {
+                margin-left: 5%;
             }
-            @media (prefers-color-scheme: dark) {
-                body {
-                    background-color: #161616;
-                    color: #f8f8f8;
-                }
-                a:link {
-                    color: #75aaff;       
-                    text-decoration: none;
-                }
-                a:visited {
-                    color: #99a4ff;       
-                    text-decoration: none;
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
-                .separator {
-                    background-color: #f8f8f8;
-                }
-                .separator-foot {
-                    background-color: #f8f8f8;
-                }
-                .sidebar {
-                    border-color: #f8f8f8;
-                }
-                .sidebar a {
-                    color: #f8f8f8;
-                }
-                .sidebar li:hover {
-                    text-decoration: underline;
-                    outline-style: solid;
-                    outline-width: 1px;
-                    outline-color: #f8f8f8;
-                }
+            .flexbox {
+                flex-direction: column;
+                align-items: center;
             }
-            @media (prefers-color-scheme: light) {
-                body {
-                    background-color: #f8f8f8;
-                    color: #11111b;
-                }
-                a:link {
-                    color: #2660b4;       
-                    text-decoration: none;
-                }
-                a:visited {
-                    color: #593e9c;       
-                    text-decoration: none;
-                }
-                a:hover {
-                    text-decoration: underline;
-                }
-                .separator {
-                    background-color: #11111b;
-                }
-                .separator-foot {
-                    background-color: #11111b;
-                }
-                .sidebar {
-                    border-color: #161616;
-                }
-                .sidebar a {
-                    color: #11111b;
-                }
-                .sidebar li:hover {
-                    text-decoration: underline;
-                    outline-style: solid;
-                    outline-width: 1px;
-                    outline-color: #11111b;
-                }
+            .box2 {
+                display: block;
+                width: 80%;
+                margin: auto;
             }
+            .separator-foot {
+                width: 100%;
+                margin-left: 0%;
+            }
+            .put-left {
+                padding-right: 0%;
+            }
+            .sidebar {
+                display: none;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #161616;
+                color: #f8f8f8;
+            }
+            a:link {
+                color: #75aaff;       
+                text-decoration: none;
+            }
+            a:visited {
+                color: #99a4ff;       
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .separator {
+                background-color: #f8f8f8;
+            }
+            .separator-foot {
+                background-color: #f8f8f8;
+            }
+            .sidebar {
+                border-color: #f8f8f8;
+            }
+            .sidebar a {
+                color: #f8f8f8;
+            }
+            .sidebar li:hover {
+                text-decoration: underline;
+                outline-style: solid;
+                outline-width: 1px;
+                outline-color: #f8f8f8;
+            }
+            .highlighted {
+                background-color: #fde3ab;
+                color: #161616;
+            }
+        }
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: #f8f8f8;
+                color: #161616;
+            }
+            a:link {
+                color: #2660b4;       
+                text-decoration: none;
+            }
+            a:visited {
+                color: #593e9c;       
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            .separator {
+                background-color: #161616;
+            }
+            .separator-foot {
+                background-color: #161616;
+            }
+            .sidebar {
+                border-color: #161616;
+            }
+            .sidebar a {
+                color: #161616;
+            }
+            .sidebar li:hover {
+                text-decoration: underline;
+                outline-style: solid;
+                outline-width: 1px;
+                outline-color: #161616;
+            }
+            .highlighted {
+                background-color: #fde3ab;
+                color: #161616;
+            }
+        }
         </style>
     </head>
     <body>

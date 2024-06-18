@@ -29,7 +29,7 @@
   - [ ] java script folded for small displays
   - [ ] java script open for wide displays
 - [ ] mobile layout
-  - [ ] made wide sidebar independently scrollable
+  - [x] made wide sidebar independently scrollable
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
@@ -64,7 +64,7 @@
     - tips
   - college financial aid options (US)
 
-### proposed
+### proposed - accepted
 
 - asylum and refuge
   - moving to the us

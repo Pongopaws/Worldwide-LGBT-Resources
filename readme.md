@@ -8,7 +8,7 @@
 - [ ] match index to section titles
   - [x] mental health
   - [x] social transitioning
-  - [ ] homelessness
+  - [x] homelessness
   - [ ] medically transitioning
   - [ ] lgbt friendly resources
   - [ ] trans representation
@@ -35,34 +35,6 @@
 - [ ] android apk
 
 ## Restucturing Homelessness
-
-### current
-
-- worldwide help for save housing
-  - moving to the us
-- US
-  - housing
-    - LGBT youth homelessness
-  - food
-    - us
-    - worldwide
-- wifi/internet
-- health insurance
-  - tips and tricks
-  - grants
-- jobs and skill building
-  - job boards
-    - worldwide
-    - us & canade
-  - know your rights
-    - how to ask for accomodations
-  - skill building
-  - resume help
-  - job interviews
-    - what to say
-    - what to wear
-    - tips
-  - college financial aid options (US)
 
 ### proposed - accepted
 

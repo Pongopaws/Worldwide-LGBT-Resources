@@ -1,9 +1,70 @@
+<style>
+.important-box {
+    width: 15em; 
+    border: 1px solid; 
+    background-color: #fde3ab; 
+    color: #161616;
+}
+.important-box:hover {
+    border: 1px solid; 
+    text-decoration: underline;
+}
+.important-container {
+    width: 100%; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    text-align: center; 
+    margin: 2em 0em;
+}
+@media (prefers-color-scheme: dark) { 
+    .important-box:hover {
+        background-color: #161616; 
+        color: #f8f8f8;
+    }
+}
+@media (prefers-color-scheme: light) { 
+    .important-box:hover {
+        background-color: #f8f8f8; 
+        color: #161616;
+    }
+}
+</style>
 <div class="readable-div">
     <h1 class="readable-text">Worldwide LGBT Resources</h1>
+
+    <div class="important-container">
+        <a href="./mental_health.html#crisis_hotlines">
+            <div class="important-box">
+                <h3>Crisis Hotlines</h3>
+            </div>
+        </a>
+        <a href="./homelessness_and_financials.html#worldwide_housing_refugees_and_asylum">
+            <div class="important-box">
+                <h3>Refuge and Asylum</h3>
+            </div>
+        </a>
+        <a href="./homelessness_and_financials.html#lgbt_youth_homelessness">
+            <div class="important-box">
+                <h3>Youth-Runaway Hotlines</h3>
+            </div>
+        </a>
+        <a href="./lgbt_friendly_resources.html#friendly_doctors_and_therapists">
+            <div class="important-box">
+                <h3>Doctors & Therapists</h3>
+            </div>
+        </a>
+        <a href="./legal_help_for_lgbt.html">
+            <div class="important-box">
+                <h3>Legal Help</h3>
+            </div>
+        </a> 
+    </div>
     <div class="readable-text put-left">
-        <h2> Chapters: </h2>
+        <h2 style="margin: 0px;"> Chapters: </h2>
         <ol type="1">
-            <li>
+            <li style="padding: 1em 0em;">
                 <h3 style="margin: 0px;"> 
                     <a href="./mental_health.html">
                         Mental Health
@@ -13,7 +74,7 @@
                     <li>
                         <h4 style="margin: 0px;">
                             <a href="./mental_health.html#crisis_hotlines">
-                                <span class="highlighted">Crisis Hotlines</span>
+                                Crisis Hotlines
                             </a>
                         </h4>
                     </li>
@@ -186,18 +247,14 @@
             <li>
                 <h3 style="margin: 0px;">
                     <a href="./homelessness_and_financials.html#worldwide_housing_refugees_and_asylum">
-                        <span class="highlighted">
-                            Homelessness, lack of Food, Asylum and Refugees & financial needs
-                        </span>
+                        Homelessness, lack of Food, Asylum and Refugees & financial needs
                     </a>
                 </h3>
                 <ol type="A"> 
                     <li>
                         <h4 style="margin: 0px;">
                             <a href="./homelessness_and_financials.html#refugees_and_asylum_to_us">
-                                Worldwide Help for safe housing (
-                                <span class="highlighted">refugees and asylum seekers</span>
-                                )
+                                Worldwide Help for safe housing ( refugees and asylum seekers )
                             </a>
                         </h4>
                     </li>
@@ -220,7 +277,7 @@
                     <li>
                         <h4 style="margin: 0px;">
                             <a href="./homelessness_and_financials.html#lgbt_youth_homelessness">
-                                <span class="highlighted">Youth-runaway crisis lines</span>
+                                Youth-runaway crisis lines
                             </a>
                         </h4>
                     </li>
@@ -333,7 +390,7 @@
                     <li>
                         <h4 style="margin: 0px;">
                             <a href="./lgbt_friendly_resources.html#friendly_doctors_and_therapists">
-                                <span class="highlighted">Doctors, Therapists, Businesses</span>
+                                Doctors, Therapists, Businesses
                             </a> 
                         </h4>
                     </li>
@@ -388,7 +445,7 @@
             <li>
                 <h3 style="margin: 0px;">
                     <a href="./legal_help_for_lgbt.html">
-                        <span class="highlighted">Legal Help</span> for LGBT
+                        Legal Help for LGBT
                     </a> 
                 </h3>
                 <ol type="A">

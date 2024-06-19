@@ -50,7 +50,7 @@ if __name__ == "__main__":
         if arg == "watch":
             while True:
                 main()
-                time.sleep(1)
+                time.sleep(2)
         else:
             print("unknonw arg: {arg}")
     else:

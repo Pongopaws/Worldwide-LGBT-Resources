@@ -5,15 +5,17 @@
 
 - [x] web light/dark ~~toggle~~ based on preference
 - [x] apply highlights from google docs
+- [x] mobile layout
+  - [x] made wide sidebar independently scrollable
 - [ ] match index to section titles
   - [x] mental health
   - [x] social transitioning
   - [x] homelessness
   - [x] medically transitioning
   - [x] lgbt friendly resources
-  - [ ] trans representation
-  - [ ] legal help
-  - [ ] orgs
+  - [x] trans representation
+  - [x] legal help
+  - [x] orgs
   - [ ] trans masc
   - [ ] periods
   - [ ] parenting
@@ -28,8 +30,6 @@
   - [x] no javascript sidebar only for wide displays
   - [ ] java script folded for small displays
   - [ ] java script open for wide displays
-- [ ] mobile layout
-  - [x] made wide sidebar independently scrollable
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk

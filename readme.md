@@ -9,8 +9,8 @@
   - [x] mental health
   - [x] social transitioning
   - [x] homelessness
-  - [ ] medically transitioning
-  - [ ] lgbt friendly resources
+  - [x] medically transitioning
+  - [x] lgbt friendly resources
   - [ ] trans representation
   - [ ] legal help
   - [ ] orgs

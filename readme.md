@@ -35,6 +35,7 @@
 - [ ] android apk
 - [ ] reword this: Want to add something here?
 Let @Pongo | change "let @pongo" to "Contact Pongo" thanks
+- [ ] Check Pongo's Resource document to add highlighted green links, or new chapters. example: politics chapter
 - [ ] Website traffic, id love to know how many people are visiting the site total or if some pages are clicked more than others
 - [ ] Adding a spot to email me or submit a form for new ideas for resources somewhere on the home page
 - [ ] Adding a homepage button would be nice, but not crucial

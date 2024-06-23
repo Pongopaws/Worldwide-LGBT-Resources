@@ -33,5 +33,8 @@
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
+- [ ] Website traffic, id love to know how many people are visiting the site total or if some pages are clicked more than others
+- [ ] Adding a spot to email me or submit a form for new ideas for resources somewhere on the home page
+- [ ] Adding a homepage button would be nice, but not crucial
 - [ ] Save browsing for people in lgbt hostile environments
 - [ ] Update Disclaimer wording to say  "Any products/companies are just suggestions." removing the word discretion as its in there twice. thanks!

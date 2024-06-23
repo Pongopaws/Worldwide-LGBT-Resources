@@ -9,6 +9,8 @@
       or if some pages are clicked more than others -> self hosting
 - [x] Update Disclaimer wording to say  "Any products/companies are just suggestions." 
       removing the word discretion as its in there twice. thanks!
+- [ ] ~~Adding a homepage button would be nice, 
+      but not crucial~~ make sidebar buttons read like buttons
 - [ ] update amanzon links to "real links" instead of browser copy 
   - [ ] legible information include all the details to find the book in book stores
 - [ ] Exporting to pdf
@@ -21,5 +23,4 @@
 - [ ] android apk
 - [ ] Check Pongo's Resource document to add highlighted green links, or new chapters. example: politics chapter
 - [ ] Adding a spot to email me or submit a form for new ideas for resources somewhere on the home page
-- [ ] ~~Adding a homepage button would be nice, but not crucial~~ make sidebar buttons read like buttons
 - [ ] Save browsing for people in lgbt hostile environments

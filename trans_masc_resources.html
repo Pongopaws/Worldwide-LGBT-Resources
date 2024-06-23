@@ -4,22 +4,6 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg" href="./img/favicon.svg" />
         <title>Trans Masc Resources</title>
-        <!--
-            let s:yellow = "#fde3ab"
-            let s:text = "#f8f8f8"
-            let s:subtext1 = "#bac2de"
-            let s:subtext0 = "#a6adc8"
-            let s:overlay2 = "#9697a5"
-            let s:overlay1 = "#777a8b"
-            let s:overlay0 = "#5f6270"
-            let s:surface2 = "#585b70"
-            let s:surface1 = "#45475a"
-            let s:surface0 = "#313244"
-            let s:underlay0 = "#2c2c30"
-            let s:base = "#161616"
-            let s:mantle = "#181825"
-            let s:crust = "#161616"
-        -->
         <style>
         .readable-div {
             display: flex;
@@ -72,6 +56,8 @@
             padding: 0px;
         }
         .sidebar li {
+            border-bottom-style: solid;
+            border-width: 1px;
             padding: 0.5em 2em;
         }
         .highlighted {
@@ -130,11 +116,13 @@
             .sidebar a {
                 color: #f8f8f8;
             }
+            .sidebar li {
+                border-color: #f8f8f8;
+                box-shadow: inset 0 0 1em #1c1c1c;
+            }
             .sidebar li:hover {
                 text-decoration: underline;
-                outline-style: solid;
-                outline-width: 1px;
-                outline-color: #f8f8f8;
+                font-weight: bold;
             }
             .highlighted {
                 background-color: #fde3ab;
@@ -169,11 +157,13 @@
             .sidebar a {
                 color: #161616;
             }
+            .sidebar li {
+                border-color: #161616;
+                box-shadow: inset 0 0 1em #f5f5f5;
+            }
             .sidebar li:hover {
                 text-decoration: underline;
-                outline-style: solid;
-                outline-width: 1px;
-                outline-color: #161616;
+                font-weight: bold;
             }
             .highlighted {
                 background-color: #fde3ab;
@@ -186,8 +176,8 @@
 <div class="sidebar">
     <ul>
         <a href="./index.html">
-            <li>
-                Index
+            <li style="border-top-style: solid">
+                Home
             </li>
         </a>
         <a href="./mental_health.html">

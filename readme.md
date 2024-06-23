@@ -33,4 +33,5 @@
 - [ ] once website is done, make business cards
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
-
+- [ ] Save browsing for people in lgbt hostile environments
+- [ ] Update Disclaimer wording to say  "Any products/companies are just suggestions." removing the word discretion as its in there twice. thanks!

@@ -5,14 +5,14 @@
         <link rel="icon" type="image/svg" href="./img/favicon.svg" />
         <title>Pregnancy And Parenting</title>
         <style>
-        .readable-div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            max-width: 90%;
-            margin: auto;
-            margin-left: 25%; /* sidebar */
-        }
+.readable-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+    margin-left: 25%; /* sidebar */
+}
         .readable-text {
             max-width: 120ch;
             margin: auto;
@@ -59,10 +59,25 @@
             border-bottom-style: solid;
             border-width: 1px;
             padding: 0.5em 2em;
+            letter-spacing: 0.05em;
         }
         .highlighted {
             background-color: #fde3ab;
             color: #161616;
+        }
+        .link-img {
+            height: 1.2rem;
+            margin: 0em 0.3em;
+            cursor: pointer;
+        }
+        .link-img-p {
+            margin: 0%;
+            padding: 0%;
+            display: none;
+            font-size: 0.5em;
+            position: relative;
+            transform: translate(-90%, 100%);
+            z-index: 10;
         }
         @media (max-aspect-ratio: 1/1) {
             .readable-div {
@@ -122,7 +137,8 @@
             }
             .sidebar li:hover {
                 text-decoration: underline;
-                font-weight: bold;
+                font-weight: 600;
+                letter-spacing: 0.01em;
             }
             .highlighted {
                 background-color: #fde3ab;
@@ -163,7 +179,8 @@
             }
             .sidebar li:hover {
                 text-decoration: underline;
-                font-weight: bold;
+                font-weight: 600;
+                letter-spacing: 0.01em;
             }
             .highlighted {
                 background-color: #fde3ab;
@@ -171,6 +188,39 @@
             }
         }
         </style>
+        <script>
+            function make_linkable(nodes) {
+                for(let i = 0; i < nodes.length; i++) {
+                    const elem = nodes[i];
+                    if (!elem.id) {continue;}
+                    const link_text = `${document.URL}#${elem.id}`
+                    const img_node = document.createElement("img");
+                    const mode = window.matchMedia('(prefers-color-scheme: dark)').matches ? "dark" : "light";
+                    img_node.src = `./img/link_icon_${mode}.svg`
+                    img_node.className += "link-img";
+
+                    const text_node = document.createElement("p");
+                    text_node.className += "link-img-p";
+                    text_node.textContent = "Copied!";
+                    
+                    function copy_to_clip() {
+                        navigator.clipboard.writeText(link_text);
+                        text_node.style.display = 'inline-block';
+                        setTimeout(() => text_node.style.display = 'none', 1000);
+                    }
+
+                    img_node.addEventListener('click', copy_to_clip);
+                    elem.appendChild(img_node);
+                    elem.appendChild(text_node);
+                }
+            }
+            document.addEventListener("DOMContentLoaded", function() {
+                make_linkable(document.querySelectorAll("h2"));
+                make_linkable(document.querySelectorAll("h3"));
+                make_linkable(document.querySelectorAll("h4"));
+                make_linkable(document.querySelectorAll("h5"));
+            });
+        </script>
     </head>
     <body>
 <div class="sidebar">

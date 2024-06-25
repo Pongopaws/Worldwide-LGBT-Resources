@@ -6,6 +6,8 @@
 - [x] ~~Adding a homepage button would be nice, 
       but not crucial~~ make sidebar buttons read like buttons
 - [x] make business cards
+- [x] Check Pongo's Resource document to add highlighted green links, or new chapters. 
+      example: politics chapter
 - [ ] update amanzon links to "real links" instead of browser copy 
   - [ ] legible information include all the details to find the book in book stores
 - [ ] Exporting to pdf
@@ -15,6 +17,5 @@
   - [ ] java script open for wide displays
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
-- [ ] Check Pongo's Resource document to add highlighted green links, or new chapters. example: politics chapter
 - [ ] Adding a spot to email me or submit a form for new ideas for resources somewhere on the home page
 - [ ] Save browsing for people in lgbt hostile environments

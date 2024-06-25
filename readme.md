@@ -8,6 +8,7 @@
 - [x] make business cards
 - [x] Check Pongo's Resource document to add highlighted green links, or new chapters. 
       example: politics chapter
+      - [ ] Add Same Disclaimer to the top, under the yellow buttons because the chapters is now very long. Thanks!
 - [ ] update amanzon links to "real links" instead of browser copy 
   - [ ] legible information include all the details to find the book in book stores
 - [ ] Exporting to pdf

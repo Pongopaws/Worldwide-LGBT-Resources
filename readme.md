@@ -21,3 +21,4 @@
   - [ ] java script open for wide displays
 - [ ] once website is completed reword things from Google doc into website.
 - [ ] android apk
+- [ ] Add folder to Build page to hide "wrong pages" from pongo

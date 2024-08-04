@@ -3,6 +3,7 @@
 
 ([original google docs](https://docs.google.com/document/d/1eLLK7EXLlJCDyJaAQXykwKjKp0m5XphUI_erLkgu8_0/edit))
 
+- [ ] move to gitlab
 - [ ] update amanzon links to "real links" instead of browser copy 
   - [ ] legible information include all the details to find the book in book stores
 - [ ] Exporting to pdf
